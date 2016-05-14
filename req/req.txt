@@ -1,2 +1,5 @@
 SpeechRecognition
 django
+scikit-learn
+scipy
+numpy
