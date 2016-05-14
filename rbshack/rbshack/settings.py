@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+DATA_PATHS={'audio':'/tmp/audio','video':'/tmp/video'}
 
 # Application definition
 
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rbs',
 ]
 
 MIDDLEWARE_CLASSES = [
